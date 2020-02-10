@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+
+.main-nav {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	height: 70px;
+	width: 120px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.user-icon,
+.search-icon {
+	border: 2px solid blue;
+	border-radius: 15px;
+	background: #86b7eb;
+	border-color: #86b7eb;
+	cursor: pointer;
+}
+
+.user-icon span i,
+.search-icon span i {
+	padding: 15px 15px;
+	transition: all 0.4s ease;
+	color: white;
+}
+
+.user-icon span i:hover,
+.search-icon span i:hover {
+	padding: 20px 20px;
+	font-size: 20px;
+}
+
+.box1 {
+	top: 80px;
+	left: 20px;
+	position: fixed;
+	height: calc(100% - 90px);
+	width: 200px;
+	background: #86b7eb;
+	border-radius: 20px;
+	padding-top: 10px;
+}
+
+
+.user-pic {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background: white;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+}
+
+.user-name, .login-p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.login-p {
+	margin: 20px 20px;
+}
+.user-name {
+	padding-bottom: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid white;
+}
+
+
+#user_name, #user_pass, #login {
+	height: 35px;
+	text-align: center;
+	width: 180px;
+	margin: 10px 10px;
+}
+
+#login{
+	width: 120px;
+	margin: 10px 40px;
+}
+
+/* search bar */
+
+.box2 {
+	top: 20px;
+	left: 130px;
+	position: fixed;
+	width: calc(100% - 150px);
+	height: 50px;
+	background: #86b7eb;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.search_form{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.search_form form {
+	display: flex;
+}
+
+#movie_name {
+	margin-left: 50px;
+	width: 350px;
+	text-align: center;
+}
+
+#genres, #year, #rating ,#search{
+	margin-left: 20px;
+	width: 100px;
+	text-align: center;
+	background: 
+}
